@@ -9,6 +9,23 @@
       margin: 2em;
       background-color: #f9f9f9;
     }
+    .page-header {
+      display: flex;
+      align-items: center;
+      background-color: #0055FF;
+      color: white;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .logo {
+      max-height: 60px;
+      margin-right: 20px;
+    }
+    .company-name {
+      font-size: 1.8em;
+      margin: 0;
+    }
     h2 {
       color: #333;
     }
@@ -52,6 +69,11 @@
   </style>
 </head>
 <body>
+
+  <header class="page-header">
+    <img src="logo.png" alt="NWSSLogo" class="logo">
+    <h1 class="company-name">NWSS Customer Intake Portal</h1>
+  </header>
 
   <h2>🔒 Secure Customer Intake Portal</h2>
   <div id="accessGate" class="form-section">
